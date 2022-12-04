@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: white;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  margin-right: 3px;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+.encabezado {
+  background-color: indigo;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'quicksand';
+  border-width: 2px;
+  border-style: ridge;
+  align-self: center;
+  box-shadow: 5px 5px 50px black;
+}
+
+.contenedor {
+  background-color: rgb(228, 228, 228);
+  width: 750px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 150px;
+  color: white;
+  border-width: 7px;
+  border-style: ridge;
+  margin-bottom: 10px;
+}
+
+.listado {
+  background-color: indigo;
+  width: 500px;
+  font-family: 'quicksand';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  margin-top: 110px;
+  color: white;
+  border-width: 7px;
+  border-style: ridge;
+  margin-bottom: 10px;
+}
+
+.conversiones {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(212, 211, 211);
+  width: auto;
+  height: auto;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  color: black;
+  border-width: 5px;
+  border-style: double;
+  border-color: black;
+  box-shadow: 2px 2px 30px black;
+}
+
+.alerta-error {
+  background-color: red;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.input {
+  margin: 10px;
+  width: 150px;
+  font-family: 'quicksand';
+  border: none;
+  border-radius: 4px;
+  height: 17px;
+}
+
+.ingresos {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.texto {
+  font-size: medium;
+  font-style: italic;
+  font-weight:  bold;
+}
+
+.link {
+  font-family: 'quicksand';
+  font-weight: bold;
+  color: black;
+}
+
+.formulario {
+  font-family: 'quicksand';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: indigo;
+  width: 55%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.title {
+  font-weight: bolder;
+  margin-bottom: 15px;
+  font-size: x-large;
+}
+
+.parte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'quicksand';
+  background-color: indigo;
+  width: 40%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.select {
+  width: 150px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'quicksand';
+  height: 20px;
+  margin-left: 5px;
+}
+
+.button {
+  font-family: 'quicksand';
+  font-weight: bold;
+  background-color: white;
+  border-radius: 8px;
+  width: 110px;
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+
+.button:hover {
+  font-family: 'quicksand';
+  font-weight: bold;
+  background-color: rgb(238, 209, 255);
+  border-radius: 8px;
+  width: 100px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.padre {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
